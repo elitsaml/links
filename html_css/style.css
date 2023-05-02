@@ -1,0 +1,32 @@
+.page_conent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue
+}
+
+#Autocomplete-wrapper 
+.Autocomplete-menu {
+    display: block;
+
+    position: absolute;
+    top: 40px;
+    max-height: 200px;
+    width: max-content;
+    overflow: auto;
+    box-shadow: 0 2px 12px rgba(0,0,0,.1);
+    background-color: #fff;
+    font-size: 90%;
+    text-align: left;
+    z-index: 20;
+}
+
+#Autocomplete-wrapper .Autocomplete-menu .Autocomplete-item-wrapper {
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+#Autocomplete-wrapper .Autocomplete-menu {
+    font-size: 90%;
+    text-align: left;
+}
